@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "5V Regulated Power Supply — L7805")
+		(date "2026-03-09")
+		(rev "1.0")
+		(company "Ibrahim Jarallah")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
