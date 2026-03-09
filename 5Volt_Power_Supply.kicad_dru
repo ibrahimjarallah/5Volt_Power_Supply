@@ -1,0 +1,17 @@
+(version 1)
+(rule power_tracks
+   (constraint track_width (min 0.5mm))
+   (condition "A.NetClass == 'Power'")
+)
+(rule no_thermal_relief
+   (constraint zone_connection solid)
+)
+(rule "Pad to Silkscreen"
+    (constraint silk_clearance (min 0.08mm))
+    (condition "A.Type == 'Pad' && B.Layer == 'F.Silkscreen'")
+)
+
+(rule "Pad to Silkscreen Back"
+    (constraint silk_clearance (min 0.08mm))
+    (condition "A.Type == 'Pad' && B.Layer == 'B.Silkscreen'")
+)

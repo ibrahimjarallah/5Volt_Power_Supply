@@ -14,7 +14,19 @@
 
 ## 🖼️ PCB Layout (2D)
 
-![2D View](2D_VIEW/2d_view.png)
+| Front | Back |
+|:---:|:---:|
+| ![2D Front](2D_VIEW/2d_view_front.png) | ![2D Back](2D_VIEW/2d_view_back.png) |
+
+## 🟤 PCB Layout — Copper Fill (2D)
+
+| Front | Back |
+|:---:|:---:|
+| ![2D Front Filled](2D_VIEW/2d_view_front_filled.png) | ![2D Back Filled](2D_VIEW/2d_view_back_filled.png) |
+
+## 📐 Schematic
+
+![Schematic](Schematic_view/schematic_view.png)
 
 ---
 
@@ -100,8 +112,13 @@ Two **Phoenix Contact screw terminals (J1, J2)** — 3.5mm pitch — for robust 
 ├── 3D_VIEW/
 │   ├── front_3d.png
 │   └── back_3d.png
-└── 2D_VIEW/
-    └── 2d_view.png
+├── 2D_VIEW/
+│   ├── 2d_view_front.png
+│   ├── 2d_view_back.png
+│   ├── 2d_view_front_filled.png
+│   └── 2d_view_back_filled.png
+└── Schematic_view/
+    └── schematic_view.png
 ```
 
 ---
@@ -144,6 +161,6 @@ You are free to use, modify, and distribute it with attribution.
 
 ## 👤 Author
 
-**Ibrahim Jarallah**
-GitHub: [ibrahimjarallah] : https://github.com/ibrahimjarallah \
-LinkedIn: [ibrahimjarallah] : https://www.linkedin.com/in/ibrahim-jarallah
+**Ibrahim Jarallah**  
+GitHub: [ibrahimjarallah](https://github.com/ibrahimjarallah) \
+LinkedIn: [ibrahimjarallah](https://www.linkedin.com/in/ibrahim-jarallah)
